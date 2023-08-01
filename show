@@ -1,0 +1,5 @@
+>>> import PIL; from PIL import Image
+>>> im = PIL.Image.open("c:/pythonpa/cs/img/mandrill.jpg")
+>>> im.show()
+>>> print(im.format, im.size, im.mode) #
+JPEG (298, 298) RGB
