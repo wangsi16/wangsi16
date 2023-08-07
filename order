@@ -1,0 +1,10 @@
+select 
+	*,(chinese + math + english) 
+as 
+	sum 
+from 
+	student 
+order by 
+	sum 
+desc limit 
+	5
