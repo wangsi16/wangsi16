@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a;
+	cin >> a;
+	cout << "Wang You" << endl;
+	return 0;
+}
+
+
+
+void fun(int a = 10, int b = 20, int c = 30)
+{
+	cout << a << " ";
+	cout << b << " ";
+	cout << c << " ";
+	cout << endl;
+}
